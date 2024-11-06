@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import React from "react";
+
 import "./globals.css";
 
 const geistSans = localFont({
@@ -16,7 +18,7 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "DevFlow",
   description: "A better version of Stack Overflow.",
-}
+};
 
 export default function RootLayout({
   children,
